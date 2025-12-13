@@ -1,10 +1,14 @@
 To set up your environment for running Python code as a beginner, follow these simple steps:
 
-Install Python
+Install Python--TODAY WE ARE GOING TO DO THIS
 
-Visit python.org and download the latest stable Python release for your operating system (Windows, macOS, or Linux).
-On Windows, make sure to select “Add Python to PATH” before clicking Install.
-Check the installation
+I DID DOWNLOAD IT AND MADE SEVERAL SCREENSHOTS OF THE PROCESS.
+
+[INSERT THE SCREENSHOTS? CAN THIS BE DONE IN THIS FILE??]
+
+I DID Visit python.org and I DID download the latest stable Python release for THE COMPUTER'S operating system (IN MY CASE macOS).
+
+Check the installation--OK THIS IS THE NEXT STEP
 
 Open your terminal (Command Prompt on Windows, Terminal on macOS/Linux) and type:
 sh
@@ -13,6 +17,17 @@ or, if that doesn't work, try:
 sh
 python3 --version
 You should see a version number printed (e.g., Python 3.12.1).
+
+
+THIS WORKED--I SEE PYTHON VERSION 3.14.0
+
+COULD IT BE THAT I SUCCESSFULLY DOWNLOADED PYTHON?
+
+I DID NOT UNDERSTAND ALL THIS BUSINESS ABOUT ROOT CERTIFICATES. WE LEAVE THIS FOR ANOTHER DAY.
+
+TOMORROW WE WILL ADD THE CODE EDITOR
+
+
 Set up a code editor
 
 Install a code editor like Visual Studio Code (VS Code), PyCharm, or you can use simple editors like Notepad++.
