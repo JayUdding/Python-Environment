@@ -1,16 +1,17 @@
-SETTING UP THE environment for running Python code as a beginner, I DID follow these simple steps:
+SETTING UP THE environment for running Python code.
 
-Install Python--TODAY WE ARE GOING TO DO THIS
+I took these steps:
 
-I DID DOWNLOAD IT AND MADE SEVERAL SCREENSHOTS OF THE PROCESS.
+INSTALLING PYTHON
 
-[INSERT THE SCREENSHOTS? CAN THIS BE DONE IN THIS FILE??] WELL THERE IS PROBABLY NO NEED IT SEEMS PRETTY SIMPLE, CLICK AND AGREE.
-
+I DID DOWNLOAD THE PYTHON language on my computer.
 I DID Visit python.org and I DID download the latest stable Python release for THE COMPUTER'S operating system (IN MY CASE macOS).
+I DID Check the installation.
 
-Check the installation--OK THIS IS THE NEXT STEP
+USING TERMINAL:
 
-Open your terminal (Command Prompt on Windows, Terminal on macOS/Linux) and type:
+Open the terminal (Command Prompt on Windows, Terminal on macOS/Linux) and type:
+
 sh
 python --version
 or, if that doesn't work, try:
@@ -21,11 +22,14 @@ You should see a version number printed (e.g., Python 3.12.1).
 
 THIS WORKED--I SEE PYTHON VERSION 3.14.0
 
-COULD IT BE THAT I SUCCESSFULLY DOWNLOADED PYTHON? YES, IT APPEARS SO.
+SO WE DID SUCCESSFULLY DOWNLOAD PYTHON.
 
-I DID NOT UNDERSTAND ALL THIS BUSINESS ABOUT ROOT CERTIFICATES. WE LEAVE THIS FOR ANOTHER DAY.
+[NOTE: I DID NOT UNDERSTAND ALL THIS BUSINESS ABOUT ROOT CERTIFICATES. WE LEAVE THIS FOR ANOTHER DAY]
 
-TOMORROW WE WILL ADD THE CODE EDITOR...
+
+---------------------
+
+ADDING THE CODE EDITOR...
 
 
 Set up a code editor
@@ -47,7 +51,10 @@ venv\Scripts\activate
 macOS/Linux:
 sh
 source venv/bin/activate
-You should now see (venv) in your terminal prompt.
+
+You should now see (venv) in your terminal prompt. YES THIS DID WORK
+
+
 Install packages
 
 While in your activated virtual environment, you can add libraries using pip:
