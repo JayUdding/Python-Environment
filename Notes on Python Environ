@@ -14,13 +14,13 @@ Open the terminal (Command Prompt on Windows, Terminal on macOS/Linux) and type:
 
 sh
 python --version
-or, if that doesn't work, try:
+or, if that doesn't work (DID NOT WORK), try:
 sh
 python3 --version
 You should see a version number printed (e.g., Python 3.12.1).
 
 
-THIS WORKED--I SEE PYTHON VERSION 3.14.0
+THIS WORKED--I AM USING PYTHON VERSION 3.14.0
 
 SO WE DID SUCCESSFULLY DOWNLOAD PYTHON.
 
@@ -34,48 +34,6 @@ ADDING THE CODE EDITOR...
 
 Set up a code editor
 
-Install a code editor like Visual Studio Code (VS Code), PyCharm, or you can use simple editors like Notepad++.
-If using VS Code, install the Python extension for features like syntax highlighting and code suggestions.
-Create a virtual environment (Recommended) This keeps your project dependencies isolated:
+INSTALLED PYCHARM AND PLAYED AROUND WITH IT A LITTLE BIT 
 
-sh
-python -m venv venv
-or
-
-sh
-python3 -m venv venv
-Activate it with:
-Windows:
-sh
-venv\Scripts\activate
-macOS/Linux:
-sh
-source venv/bin/activate
-
-You should now see (venv) in your terminal prompt. YES THIS DID WORK
-
-
-Install packages
-
-While in your activated virtual environment, you can add libraries using pip:
-sh
-pip install package_name
-Example:
-sh
-pip install requests
-Write and run your code
-
-Save your Python code in a .py file.
-Execute your scripts by running:
-sh
-python your_file.py
-or
-sh
-python3 your_file.py
-Summary Checklist:
-
- Download and install Python
- Install a code editor (VS Code is easy)
- (Optional, but recommended) Set up a virtual environment for your project
- Install any additional packages you need
- Write and run .py files via your terminal
+GOING BACK AND FORTH WITH GITHUB AND PYTHON VIA PYCHARM
