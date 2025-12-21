@@ -45,3 +45,39 @@ Set up a code editor
 INSTALLED PYCHARM AND PLAYED AROUND WITH IT A LITTLE BIT 
 
 GOING BACK AND FORTH WITH GITHUB AND PYTHON VIA PYCHARM
+
+
+
+
+some general insights about using the terminal alongside PyCharm for Python and AI development:
+
+Benefits of Using the Terminal for Python & AI Development:
+1. Direct Environment Control
+
+Full control over Python virtual environments and package management
+Better understanding of what's happening under the hood vs. IDE abstractions
+Easier to replicate your setup across different machines
+2. AI/ML Specific Advantages
+
+Running training scripts with precise control over resources and parameters
+Monitoring GPU/CPU usage in real-time with tools like nvidia-smi or htop
+Better handling of long-running processes without IDE overhead
+Easier experimentation with command-line arguments and configurations
+3. Flexibility & Debugging
+
+Interactive Python shell (REPL) with python or ipython for quick testing
+Running scripts with different Python interpreters easily
+Better visibility into errors and warnings without IDE filtering
+Easier to use debugging tools like pdb (Python debugger)
+4. Reproducibility & DevOps
+
+Learning shell scripting helps with automation
+Better preparation for production environments (servers typically use CLI)
+Easier to share reproducible commands with teammates
+Understanding containerization (Docker) and CI/CD pipelines
+5. Complementary to PyCharm
+
+PyCharm excels at code navigation, refactoring, and debugging within projects
+Terminal excels at environment management, testing, and data exploration
+Use both for optimal workflow: develop in PyCharm, run/debug in terminal
+My Recommendation: Keep using PyCharm for development but become comfortable in the terminal for running scripts, managing environments, and AI/ML tasks. They complement each other well!
