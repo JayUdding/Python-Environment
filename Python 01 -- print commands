@@ -39,3 +39,27 @@ This has the earlier result again spanning 4 lines
 
 Quotes can be single ' or double " --seems to make no difference.
 
++ sign results in concatenation --the combining of two strings
+
+print('one' + 'twenty' + 'one') 
+
+results in 
+
+onetwentyone
+
+, comma creates a space
+
+value_1 = 'bear'
+value_2 = 'cheetah'
+print(value_1, value_2)
+print(value_1 + value_2)
+
+results in
+
+bear cheetah
+bearcheetah
+
+Note that we are not printing a string here with commas!
+
+
+
