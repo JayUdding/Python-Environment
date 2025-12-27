@@ -1,0 +1,41 @@
+print("the")
+print('big')
+print("black")
+print('box')
+
+This results as follows:
+
+the
+big
+black
+box
+
+\n means a new line is added immmediatly afterwards:
+
+print("the\nbig\nblack\nbox")
+
+Has the same result as above
+
+the
+big
+black
+box
+
+print('the
+big
+black
+box')
+
+This results in a syntax error--meaning the proper syntax was not formed in the code
+
+Could be fixed by using triple quotes:
+
+print('''the
+big
+black
+box''')
+
+This has the earlier result again spanning 4 lines
+
+Quotes can be single ' or double " --seems to make no difference.
+
