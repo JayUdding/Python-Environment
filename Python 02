@@ -1,0 +1,29 @@
+More learning today -- Variables and Concatenation (combining two or more strings)
+
+print('one' + 'twenty' + 'one') this concatenates into onetwentyone and concatenation works with spaces
+
+value_1 = 'bear'
+value_2 = 'cheetah'
+print(value_1, value_2)
+print(value_1 + value_2)
+
+result:
+
+bear cheetah
+bearcheetah
+
+NOTE 
+
+the comma , adds a space in the first println
+the plus sign concatenates the two strings
+but adding spaces after the commas in or after the + sign does not change anything we need commas to get this done
+
+INPUT FUNCTION--input function. 
+
+Using this function, we can ask the user to give us strings that we can then use in our program. 
+In order to get input from the user, we will have call the input function, 
+then store the string that the user gives us into a variable
+then we can use this variable elsewhere in the code (for example, print it out!).
+
+input works similar to print in that it causes a result when we run the code, by hitting return
+
