@@ -44,24 +44,9 @@ _Last updated: 2025-12-21_
 
 
 ## About me
-WorkEthic: I not only piss in the bottle; then I drink the bottle.
+WorkSituation: I not only piss in the bottle; then I drink the bottle.
 
-- 🔭 Currently working on: AI Lead or Follow
-- 🌱 I’m learning: Python, Terminal, AI
-
-
-
----
-
-## GitHub Stats
-![JayUdding's GitHub stats](https://github-readme-stats.vercel.app/api?username=JayUdding&show_icons=true&theme=merko)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JayUdding&layout=compact&theme=merko)
-
-(Theme: merko — change `theme=merko` to another option if you want a different look.)
+- 🔭 Currently working on: AI Lead or Follow or Resist
+- 🌱 I’m learning: Python, Terminal, AI--turtle speed
 
 
-
-Thanks for stopping by 👋
-
----
-_Last updated: 2025-12-21_
