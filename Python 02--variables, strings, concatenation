@@ -1,4 +1,4 @@
-More learning today -- Variables and Concatenation (combining two or more strings)
+More learning today -- Strings, Variables and Concatenation (combining two or more strings) and the INPUT function
 
 print('one' + 'twenty' + 'one') this concatenates into onetwentyone and concatenation works with spaces
 
@@ -26,4 +26,8 @@ then store the string that the user gives us into a variable
 then we can use this variable elsewhere in the code (for example, print it out!).
 
 input works similar to print in that it causes a result when we run the code, by hitting return
+
+We say that the input function returns the string that the user types in. 
+Therefore, we need to put a variable = before the call to the function, in order to save the string. 
+This variable will refer to whatever the user typed, and then it can be used.
 
