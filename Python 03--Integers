@@ -1,0 +1,27 @@
+int = integer -- data type that consists of whole numbers (no decimals, no fractions, no alphabetical characters)
+(whereas a string is text placed within quotes--the quotes designate a string)
+
+NOTE that we cannot concetanate a string + an int (not supported in Python)
+We need to CONVERT
+
+E.g.: 
+
+print('He is ' +str(age) + ' years old and is ' + str(height) + ' inches tall')
+
+
+If we want to calculate we ensure that input is in int form--add: int()
+
+E.g.:
+
+revenue = int(input('Business revenue: '))
+cost = int(input('Business costs: '))
+profit = revenue - cost
+print('The business profit is: ' + str(profit))
+
+Here is how to do Addition, Subtraction, Multiplication and Division
+
++
+-
+*
+\
+
