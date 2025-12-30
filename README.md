@@ -50,3 +50,5 @@ WorkSituation: I not only piss in the bottle; then I drink the bottle.
 - 🌱 I’m learning: Python, Terminal, AI--turtle speed
 
 
+
+
