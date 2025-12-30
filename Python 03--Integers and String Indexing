@@ -1,6 +1,12 @@
 int = integer -- data type that consists of whole numbers (no decimals, no fractions, no alphabetical characters)
 (whereas a string is text placed within quotes--the quotes designate a string)
 
+Strings are an incredibly useful component of python programming. 
+We can use strings to store all kinds of information within our programs. 
+Peoples’ names, street addresses, paragraphs of text, ID numbers, and more. 
+Strings have many built-in features that allow us do do things such as:
+extract sub-components, extract individual letters, capitalize words, etc.
+
 NOTE that we cannot concetanate a string + an int (not supported in Python)
 We need to CONVERT
 
@@ -9,7 +15,7 @@ E.g.:
 print('He is ' +str(age) + ' years old and is ' + str(height) + ' inches tall')
 
 
-If we want to calculate we ensure that input is in int form--add: int()
+If we want to calculate we need to ensure that input is in int form--add: int()
 
 E.g.:
 
@@ -25,14 +31,40 @@ Here is how to do Addition, Subtraction, Multiplication and Division
 *
 \
 
+When dealing with strings, we can refer to any letter / character within a string by its index. 
+An index is just a number that specified what position a character is at within the string.
+
 
 STRING INDEXING is done with brackets []
 Positive--starts with 0
 Negative--starts with -1
 len = length function
 
+
+Example: positive and negative
+
+city = 'Amsterdam'
+letter = city[5]
+print(letter)
+
+city = 'Amsterdam'
+letter = city[-5]
+print(letter)
+
+[different letters are the result here]
+
+Example: build a new string via indexing
+
+city = 'Jerusalem.'
+rock = city[0] + city[1] + city[8]
+print(rock)
+
+Example: here we do not know how long the string is
+
 text = input('Type something: ')
 print('The last two characters of your input were: ' + text[-2] + text[-1])
+
+
 text = input('Type something: ')
 last = text[len(text) - 1]
 other = text[len(text) - 2]
