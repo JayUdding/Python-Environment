@@ -1,0 +1,27 @@
+Booleans -- is something True or False
+Booleans are commonly used for conditions such as if-statements in code
+
+the_sky_is_blue = True
+food_is_bad = False
+print(the_sky_is_blue, food_is_bad)
+
+This results in:
+
+True False
+
+Some operators:
+
+A < B results in True if A is less than B, False otherwise.
+A <= B results in True if A is less than or equal to B, False otherwise.
+A > B results in True if A is greater than B, False otherwise.
+A >= B results in True if A is greater than or equal to B, False otherwise.
+A == B results in True if A is equal to B, False otherwise.
+A != B results in True if A is not equal to B, False otherwise.
+
+Example:
+
+home_cost = int(input('How much does the home cost? '))
+available_funds = int(input('How much money do you have immediately available? '))
+down_payment = home_cost * 0.2
+if available_funds >= down_payment:
+    print('You can afford the down payment!')
